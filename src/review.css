@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+  }
+  
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px 5px;
+    border-radius: 50%;
+    background-color: #bbb;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .activeImg {
+    background-color: #717171;
+  }
+  
+  .review {
+    border: 1px solid black;
+    padding: 10px;
+    }
